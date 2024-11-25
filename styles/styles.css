@@ -27,7 +27,6 @@ grijs #899CA0 en donkergroen #1C2B32
 }
 
 /*todo: margin en padding nalopen*/
-/*todo: test borders verwijderen*/
 
 h1 {
     font-size: 80px;
@@ -86,7 +85,6 @@ body {
 /*///////////// 3.1 Header /////////////*/
 
 header {
-    border: 2px dotted green;
     background-image: url("/assets/images/mountains.jpg");
     background-size: cover;
     background-position: center;
@@ -95,7 +93,6 @@ header {
 }
 
 .header-tekst {
-    border: 2px dotted red;
     max-width: 1000px;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -117,13 +114,11 @@ button.submit{
 /*///////////// 3.2 Testimonial /////////////*/
 
 main{
-    border: 2px dotted blue;
     max-width: 1000px;
     margin: auto;
 }
 
 section{
-    border: 2px dotted orange;
 }
 
 /*///////////// 3.3 Support /////////////*/
@@ -149,5 +144,9 @@ details{
 /*///////////// 3.5 Footer /////////////*/
 
 footer{
-    border: 2px dotted purple;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
