@@ -147,3 +147,7 @@ details{
 }
 
 /*///////////// 3.5 Footer /////////////*/
+
+footer{
+    border: 2px dotted purple;
+}
