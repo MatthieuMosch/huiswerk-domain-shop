@@ -126,6 +126,8 @@ section{
     border: 2px dotted orange;
 }
 
+/*///////////// 3.3 Support /////////////*/
+
 img{
     width: 100%;
     margin-top: 10px;
@@ -137,10 +139,11 @@ button.contact{
     /*alle kanten afronden*/
 }
 
-/*///////////// 3.3 Support /////////////*/
-
-
 /*///////////// 3.4 Faq /////////////*/
 
+details{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 /*///////////// 3.5 Footer /////////////*/
