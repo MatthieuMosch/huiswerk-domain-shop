@@ -26,6 +26,44 @@ grijs #899CA0 en donkergroen #1C2B32
     box-sizing: border-box;
 }
 
+/*todo: margin en padding nalopen*/
+/*todo: test borders verwijderen*/
+
+h1 {
+    font-size: 80px;
+    /*todo: h1 en h2 goed instellen qua grootte*/
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: #899CA0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button{
+    /*style for all buttons*/
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+input{
+    padding: 10px;
+}
+
 /*////////////////////////
     2. Typography
 ////////////////////////*/
@@ -36,6 +74,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 12px;
 }
 
 
@@ -51,6 +90,7 @@ header {
     background-image: url("/assets/images/mountains.jpg");
     background-size: cover;
     background-position: center;
+    height: 768px;
     /*todo: hoogte instellen ?*/
 }
 
@@ -63,14 +103,38 @@ header {
     /*margin: auto; !* geldt dit voor alle 4 kanten of alleen links en rechts *!*/
     margin-right: auto;
     text-align: center;
-    font-size: 10px;
     /*todo: input en button afronden en plaatsen met margin: -1px*/
+}
+
+input.submit{
+    /*linkerkant afronden*/
+}
+
+button.submit{
+    /*rechterkant afronden*/
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
 
 main{
-    max-width: 100px;
+    border: 2px dotted blue;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section{
+    border: 2px dotted orange;
+}
+
+img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*todo: img met afgeronde hoeken*/
+}
+
+button.contact{
+    /*alle kanten afronden*/
 }
 
 /*///////////// 3.3 Support /////////////*/
