@@ -10,18 +10,27 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/*
+kleuren
+grijs #899CA0 en donkergroen #1C2B32
+*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
 
-
+/*css reset*/
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
+body {
+
+}
 
 
 /*////////////////////////
@@ -32,7 +41,14 @@ Table of Contents:
 
 /*///////////// 3.1 Header /////////////*/
 
-
+header{
+    border: dotted 1px red;
+    max-width: 1000px;
+    background-image: url("/assets/images/mountains.jpg");
+    /*background-attachment: fixed;*/
+    background-size:contain;
+    background-position: center center;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
 
