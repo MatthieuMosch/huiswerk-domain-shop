@@ -21,15 +21,21 @@ grijs #899CA0 en donkergroen #1C2B32
 
 /*css reset*/
 * {
-    margin: 0; padding: 0; box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -38,28 +44,39 @@ body {
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
 
-header{
-    border: dotted 1px red;
-    max-width: 1000px;
+header {
+    border: 2px dotted green;
     background-image: url("/assets/images/mountains.jpg");
-    /*background-attachment: fixed;*/
-    background-size:contain;
-    background-position: center center;
+    background-size: cover;
+    background-position: center;
+    /*todo: hoogte instellen ?*/
+}
+
+.header-tekst {
+    border: 2px dotted red;
+    max-width: 1000px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    /*margin: auto; !* geldt dit voor alle 4 kanten of alleen links en rechts *!*/
+    margin-right: auto;
+    text-align: center;
+    font-size: 10px;
+    /*todo: input en button afronden en plaatsen met margin: -1px*/
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
 
-
+main{
+    max-width: 100px;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
 
-
 /*///////////// 3.4 Faq /////////////*/
-
 
 
 /*///////////// 3.5 Footer /////////////*/
