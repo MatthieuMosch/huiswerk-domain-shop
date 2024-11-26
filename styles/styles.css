@@ -12,8 +12,10 @@ Table of Contents:
 
 /*
 kleuren
-grijs #899CA0 en donkergroen #1C2B32
+grijs: #899CA0
+donkergroen: #1C2B32
 */
+/*donkergroen niet gebruikt*/
 
 /*////////////////////////
     1. Global Styles
@@ -26,25 +28,23 @@ grijs #899CA0 en donkergroen #1C2B32
     box-sizing: border-box;
 }
 
-/*todo: margin en padding nalopen*/
-
 h1 {
     font-size: 80px;
-    /*todo: h1 en h2 goed instellen qua grootte*/
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 25px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-p{
+p {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-a{
+a {
     color: #899CA0;
 }
 
@@ -52,14 +52,14 @@ a:hover {
     text-decoration: none;
 }
 
-button{
+button {
     /*style for all buttons*/
     background-color: black;
     color: white;
     padding: 10px;
 }
 
-input{
+input {
     padding: 10px;
 }
 
@@ -89,7 +89,6 @@ header {
     background-size: cover;
     background-position: center;
     height: 768px;
-    /*todo: hoogte instellen ?*/
 }
 
 .header-tekst {
@@ -100,50 +99,94 @@ header {
     /*margin: auto; !* geldt dit voor alle 4 kanten of alleen links en rechts *!*/
     margin-right: auto;
     text-align: center;
-    /*todo: input en button afronden en plaatsen met margin: -1px*/
 }
 
-input.submit{
-    /*linkerkant afronden*/
+input.submit {
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    background: transparent;
 }
 
-button.submit{
-    /*rechterkant afronden*/
+button.submit {
+    margin-left: -4px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
 
-main{
+main {
     max-width: 1000px;
     margin: auto;
 }
 
-section{
+.testimonial-quote {
+    position: relative;
+}
+
+blockquote {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+blockquote > img {
+    position: absolute;
+    top: 22px;
+    left: 68px;
+    width: 22px;
+    vertical-align: text-top;
+}
+
+cite > img {
+    /*display property niet nodig gehad*/
+    /*foto en naam staan naast elkaar*/
+    width: 44px;
+    /*height: 44px;*/ /*height scales with widhth*/
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 20px;
 }
 
 /*///////////// 3.3 Support /////////////*/
 
-img{
+.support img {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    /*todo: img met afgeronde hoeken*/
+    border-radius: 10px;
 }
 
-button.contact{
-    /*alle kanten afronden*/
+button.contact {
+    border-radius: 22px;
 }
 
 /*///////////// 3.4 Faq /////////////*/
 
-details{
+details {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-/*///////////// 3.5 Footer /////////////*/
+details:hover {
+    cursor: pointer;
+}
 
-footer{
+details > p {
+    background-color: #899CA0;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/*//////////// 3.5 Footer ///////////*/
+
+footer {
     background-color: black;
     color: white;
     text-align: center;
