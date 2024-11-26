@@ -67,10 +67,12 @@ input {
     2. Typography
 ////////////////////////*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap')
 
 body {
-    font-family: "Poppins", sans-serif;
+    /*font-family: "Poppins", sans-serif;*/
+    font-family: "Courier Prime", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
